@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dividir Conta</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dividir Conta</h1>
+
+        <table id="billTable">
+            <tr>
+                <th>Item</th>
+                <th>Preço</th>
+                <th>Clientes</th>
+            </tr>
+        </table>
+
+        <button onclick="addItem()">Adicionar Item</button>
+
+        <p>
+            <label for="includeTip">Incluir 10% de gorjeta:</label>
+            <input type="checkbox" id="includeTip" checked>
+        </p>
+
+        <button onclick="splitBill()">Dividir Conta</button>
+
+        <h2>Resultado:</h2>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

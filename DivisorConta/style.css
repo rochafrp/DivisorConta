@@ -1,0 +1,123 @@
+html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#13293d, #1b98e0);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1000px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+  padding: 10px;
+  background: #247ba0;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  color: #fff;
+  border-radius: 100px;
+ 
+}
+
+.container table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container th, td {
+  border: 10px solid transparent;
+  padding: 8px;
+  text-align: center;
+}
+
+.container th {
+  text-align: center;
+  margin:  0 10px;
+  background-color: #247ba0;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  color: #fff;
+  border-radius: 100px;
+  border-spacing: 20px;
+}
+
+.container tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.container button {
+  position: relative;
+  display:inline-block;
+  padding: 10px 14px;
+  color: #000000;
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 10px;
+  letter-spacing: 4px
+}
+
+.container button:hover {
+  background: #1b98e0;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #e8f1f2,
+              0 0 25px #006494,
+              0 0 50px #e8f1f2,
+              0 0 100px #006494;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="checkbox"] {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 4px #8db5e4;
+}
+
+.container label {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #e8f1f2
+}
+.container h2 {
+  text-align: center;
+  padding: 10px;
+  background: #247ba0;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  color: #fff;
+  border-radius: 100px;
+}
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #e8f1f2
+}
